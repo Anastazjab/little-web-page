@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2? семья = Монтсеррат: вес @ 300; 400 & display=swap') rel="stylesheet");
+
+html,
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1, 
+h2 {
+    font-family: 'Montserrat';
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #FFEFD5;
+    padding: 5px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    margin-bottom: 3em;
+    background-color: #FFDAB9;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    color: #A52A2A;
+    font-weight: 800;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+}
+
+.fullName {
+    margin-right: 20px;
+    flex-basis: 750px;
+}
+
+.myImg img {
+    width: 195px;
+    height: 300px;
+}
+
+.myImg {
+    margin-top: 10px;
+    padding-left: 20px;
+    flex-basis: 450px;
+}
+
+.knowledge {
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    color: #CD5C5C;
+}
+
+.article {
+    margin-top: 2em;  
+}
+
+
+p {
+    font-size: 1.2rem;
+    color: #800000;
+    padding-left: 20px;
+}
+
+.text {
+    font-size: 1rem;
+    color: #006400;
+}
+
+h2 {
+    text-align: center;
+    color: #A52A2A;
+}
+
+h1 {
+    color: #800000;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: #D2691E;
+    flex: 0 0 auto;
+}
+
